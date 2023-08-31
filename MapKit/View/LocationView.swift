@@ -24,7 +24,7 @@ struct LocationView: View {
                 .padding()
                 Spacer()
             }
-        }
+        }.ignoresSafeArea(.all)
     }
 }
 
