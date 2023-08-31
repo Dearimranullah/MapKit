@@ -25,6 +25,7 @@ struct LocationListView: View {
                         VStack(alignment: .leading){
                             Text(Location.name)
                                 .font(.headline)
+                                .foregroundColor(.green)
                             Text(Location.cityName)
                                 .font(.subheadline)
                         }
