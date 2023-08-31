@@ -24,7 +24,8 @@ struct LocationView: View {
                 .padding()
                 Spacer()
             }
-        }.ignoresSafeArea(.all)
+        }
+//         This is destop
     }
 }
 
@@ -54,7 +55,6 @@ extension LocationView {
                                 degrees: vm.showList ? 180:0))
                             .padding()
             }
-// This is Development comment
            
                 }
             if (vm.showList){

@@ -45,3 +45,4 @@ struct LocationListView_Previews: PreviewProvider {
             .environmentObject(LocationViewModel())
     }
 }
+// we write this code in Desktop
